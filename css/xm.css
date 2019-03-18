@@ -1,0 +1,185 @@
+*{margin:0;padding:0}
+body{background-color:#f0f0f0;}
+ul,li,a{list-style:none;text-decoration:none;color:#b0b0b0;}
+/*小米top*/
+#site_topbar::after{content:'';display:block;clear:both}
+#site_topbar{position:relative;width:100%;height:40px;background-color:#333;font-size:12px;}
+#site_topbar>div.topbar_inner{height:40px;line-height:40px;width:1200px;margin:0 auto;}
+#site_topbar>div.topbar_inner>div.lf{float:left;width:700px;}
+#site_topbar>div.topbar_inner>div.lf>a{display:inline-block;line-height:40px;color:#b0b0b0;margin-right:10px;}
+#site_topbar>div.topbar_inner>div.lf>a:hover{color:#fff;}
+#site_topbar>div.topbar_inner>div.rt{float:right;width:300px;}
+#site_topbar>div.topbar_inner>div.rt>a{display:inline-block;line-height:40px;color:#b0b0b0;margin-right:10px;}
+#site_topbar>div.topbar_inner>div.rt>a:hover{color:#fff;}
+#site_topbar>div.topbar_inner>div.rt>div.shop_cart{display:inline-block;width:120px;text-align:center;}
+/*小米body*/
+#container::after{content:'';display:block;clear:both}
+#container::before{content:'';display:table;}
+#container{width:1226px;margin:0 auto;}
+/*小米导航栏*/
+#container>#site_header{position:relative;width:1226px;height:100px;background-color:#fff;}
+#container>#site_header>div.header_inner{padding:20px 0;}
+#container>#site_header>div.header_inner>img{margin-left:0}
+#container>#site_header>div.header_inner>div.header_txt::after{content:'';display:block;clear:both;}
+#container>#site_header>div.header_inner>div.header_txt{position:absolute;height:60px;left:10rem;top:2.5rem;}
+#container>#site_header>div.header_inner>div.header_txt>ul>li{float:left;margin:1px 0 20px 20px;}
+#container>#site_header>div.header_inner>div.header_txt>ul>li>a{font-size:18px;color:#333;}
+#container>#site_header>div.header_inner>div.header_txt>ul>li>a:hover{color:#ff6700;}
+/*导航隐藏部分*/
+#container>#site_header>div.header_inner>div.header_txt>#container_1{position:absolute;z-index:5;margin:3.7rem 0 0 -10rem;}
+#content1,#content2,#content3,#content4,#content5,#content6,#content7,#content8{display:none;}
+/*content1、2、3、4*/
+#container>#site_header>div.header_inner>div.header_txt>#container_1>.content{border-top:1px solid #ccc;position:absolute;width:1226px;height:250px;background:#fff;}
+#container>#site_header>div.header_inner>div.header_txt>#container_1>.content>ul{float:left;height:200px;text-align:center;}
+#container>#site_header>div.header_inner>div.header_txt>#container_1>.content>ul>li>div{width:202px;height:200px;}
+#container>#site_header>div.header_inner>div.header_txt>#container_1>.content>ul>li>div>a:first-child{display:block;width:160px;height:110px;padding:30px 0 15px 25px;}
+#container>#site_header>div.header_inner>div.header_txt>#container_1>.content>ul>li>div>a>img{width:100%;height:100%;}
+#container>#site_header>div.header_inner>div.header_txt>#container_1>.content>ul>li>div>a:nth-child(2){display:inline-block;font-size:13px;
+    color:#333;margin-top:-10px;}
+#container>#site_header>div.header_inner>div.header_txt>#container_1>.content>ul>li>div>p:nth-child(3){font-size:14px;color:#ff6700;margin-top:5px;}
+
+#container>#site_header>div.header_inner>div.header_form{border:1px solid #ccc;width:300px;height:50px;float:right;}
+#container>#site_header>div.header_inner>div.header_form>div.input{margin-top:10px;}
+#container>#site_header>div.header_inner>div.header_form>div.input>input{border:0;outline:none;text-indent:10px;line-height:20px;width:270px;height:30px;}
+#container>#site_header>div.header_inner>div.header_form>div.search{position:absolute;float:right;width:50px;height:50px;border-left:1px solid #ccc;z-index:1;right:0;top:21px;cursor:pointer;}
+#container>#site_header>div.header_inner>div.header_form>div.block{position:absolute;z-index:1;top:38px;right:60px;}
+#container>#site_header>div.header_inner>div.header_form>div.block>a{display:inline-block;width:60px;background-color:#eee;font-size:12px;color:#666;text-align:center;transition-duration:0.2s;}
+#container>#site_header>div.header_inner>div.header_form>div.block>a:hover{background:#ff6700;color:#fff;}
+/*小米侧导*/
+#container>#site_slider::after{content:'';display:block;clear:both}
+#container>#site_slider{position:relative;width:1226px;height:460px;background-color:#fff;}
+#container>#site_slider>div.site_navbar{position:absolute;float:left;z-index:1;width:240px;height:460px;}
+#container>#site_slider>div.site_navbar>ul{position:absolute;width:240px;height:460px;background:rgba(0,0,0,0.6);cursor:pointer;}
+#container>#site_slider>div.site_navbar>ul>li{transition-duration:0.1s;}
+#container>#site_slider>div.site_navbar>ul>li>a{display:inline-block;padding:12px 30px;width:147px;color:#fff;font-size:16px;font-weight:400;}
+#container>#site_slider>div.site_navbar>ul>li>span{float:right;padding:10px 20px 0 0;font-weight:700;}
+#container>#site_slider>div.site_navbar>ul>li:hover{background:#ff6700;color:#fff;}
+/*小米侧导隐藏部分*/
+#side1,#side2,#side3,#side4,#side5,#side6,#side7,#side8,#side9,#side10{display:none;}
+#container>#site_slider>div.site_navbar>#container_2{position:absolute;left:15rem;z-index:10;}
+#container>#site_slider>div.site_navbar>#container_2>.side{position:absolute;width:992px;height:460px;background:#fff;box-shadow:1px 1px 3px 3px #ccc;}
+#container>#site_slider>div.site_navbar>#container_2>.side>ul{float:left;width:248px;height:460px;}
+#container>#site_slider>div.site_navbar>#container_2>.side>ul>li{width:250px;height:75px;}
+#container>#site_slider>div.site_navbar>#container_2>.side>ul>li>a{display:block;padding:20px;}
+#container>#site_slider>div.site_navbar>#container_2>.side>ul>li>a::after{content:'';display:block;clear:both;}
+#container>#site_slider>div.site_navbar>#container_2>.side>ul>li>a>img{width:40px;height:40px;float:left;}
+#container>#site_slider>div.site_navbar>#container_2>.side>ul>li>a>span{width:160px;height:40px;float:left;line-height:40px;font-size:13px;color:#333;padding-left:10px;}
+#container>#site_slider>div.site_navbar>#container_2>.side>ul>li>a>span:hover{color:#ff6700;}
+#container>#site_slider>div.site_navbar>#container_2>.side:nth-child(3){width:530px;}
+
+/*小米轮播*/
+#container>#site_slider>div.carousel{position:relative;}
+#container>#site_slider>div.carousel>div.carousel_item{width:1226px;height:460px;}
+#container>#site_slider>div.carousel>div.carousel_item>img{width:100%;height:100%;}
+#container>#site_slider>div.carousel>div.carousel_arrow{position:absolute;top:43%;left:17rem;cursor:pointer;}
+#container>#site_slider>div.carousel>div.carousel_arrow>ul>li.prev{position:absolute;left:-32px;width:41px;height:69px;background:url(//i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -84px 50%;border-radius:5px;}
+#container>#site_slider>div.carousel>div.carousel_arrow>ul>li.next{position:absolute;right:-59.6rem;width:41px;height:69px;background:url(//i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png) no-repeat -125px 50%;border-radius:5px;}
+#container>#site_slider>div.carousel>div.carousel_arrow>ul>li.prev:hover{background-color:rgba(0,0,0,0.6);}
+#container>#site_slider>div.carousel>div.carousel_arrow>ul>li.next:hover{background-color:rgba(0,0,0,0.6);}
+#container>#site_slider>div.carousel>div.carousel_indicator>ul{position:absolute;bottom:2rem;right:3rem;}
+#container>#site_slider>div.carousel>div.carousel_indicator>ul>li{float:left;width:7px;height:7px;border:2px solid #fff;border-radius:50%;cursor:pointer;margin-right:10px;}
+#container>#site_slider>div.carousel>div.carousel_indicator>ul>li.active{background-color:#ff6700;box-shadow:1px 0px 3px 0px #fff;}
+#container>#site_slider>div.carousel>div.carousel_indicator>ul>li:hover{background-color:#ff6700;box-shadow:1px 0px 3px 0px #fff;}
+
+/*小米特品*/
+#container>#site_spac::before{content:'';display:table;}
+#container>#site_spac::after{content:'';display:block;clear:both}
+#container>#site_spac{position:relative;width:1226px;height:170px;margin-top:2rem;background-color:#fff;}
+#container>#site_spac>div.spac_one{position:absolute;float:left;width:240px;height:170px;background:#5f5750;}
+#container>#site_spac>div.spac_one>ul{padding:15px 10px;}
+#container>#site_spac>div.spac_one>ul>li{float:left;margin:0 5px 20px 10px;text-align:center;font-size:14px;cursor:pointer;}
+#container>#site_spac>div.spac_one>ul>li>p:hover{color:#fff;}
+#container>#site_spac>div.spac_two{position:absolute;width:315px;height:170px;left:16rem;}
+#container>#site_spac>div.spac_two>a{display:block;width:315px;height:170px;}
+#container>#site_spac>div.spac_two>a>img{width:100%;height:100%;transition:opacity 0.2s linear;}
+#container>#site_spac>div.spac_three{position:absolute;left:36.5rem;}
+#container>#site_spac>div.spac_four{position:absolute;left:57rem;}
+#container>#site_spac>div.spac_two>a>img:hover{opacity:0.8;}
+/*特品长图*/
+#container>#redmi{position:relative;width:1226px;height:120px;margin-top:2rem;background-color:#fff;}
+#container>#redmi>a{display:block;width:1226px;height:120px;}
+#container>#redmi>a>img{width:100%;height:100%;}
+
+/*floors*/
+/*floor1*/
+#container>#floors::after{content:'';display:block;clear:both;}
+#container>#floors{position:relative;width:1226px;margin-top:5rem;}
+#container>#floors>.floor1::after{content:'';display:block;clear:both;}
+#container>#floors>.floor1{position:relative;width:1226px;height:675px;}
+#container>#floors>.floor1>div.f1_tit{width:1226px;height:58px;}
+#container>#floors>.floor1>div.f1_tit>h2{font-size:23px;color:#333;line-height:58px;font-weight:200;}
+#container>#floors>.floor1>div.bg_img{float:left;}
+#container>#floors>.floor1>div.bg_img>a{display:block;width:234px;height:615px;}
+#container>#floors>.floor1>div.bg_img>a>img{width:100%;height:100%;transition:transform 0.3s linear;}
+#container>#floors>.floor1>div.bg_img>a>img:hover{transform:translateY(-2px);box-shadow: 0 0 5px 2px #dddddd;}
+#container>#floors>.floor1>div.sm_img::after{content:'';display:block;clear:both;}
+#container>#floors>.floor1>div.sm_img{float:right;width:990px;height:615px;}
+#container>#floors>.floor1>div.sm_img a{color:#333;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f1_sm{position:absolute;width:234px;height:300px;background:#fff;margin:0 0 15px 15px;transition:transform 0.2s linear;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f1_sm:hover{transform:translateY(-2px);box-shadow: 0 0 5px 2px #dddddd;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f1_sm>p:first-child{position:absolute;left:36%;width:64px;height:20px;background:#83c44e;color:#fff;text-align:center;font-size:13px;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f1_sm>a{position:absolute;top:1.3rem;left:2.2rem;display:block;width:160px;height:160px;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f1_sm>a>img{width:100%;height:100%;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f1_sm>a:nth-child(3){font-size:14px;text-align:center;margin-top:180px;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f1_sm>p:nth-child(4){font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 15px;margin-top:225px;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f1_sm>span:last-child{display:inline-block;font-size:14px;color:#ff6700;margin:15px 0 0 90px;}
+
+#container>#floors>.floor1>div.sm_img>ul>li>div.f2_sm{position:absolute;left:30rem;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f3_sm{position:absolute;left:45.5rem;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f4_sm{position:absolute;left:61rem;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f5_sm{position:absolute;top:23rem;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f5_sm>p:first-child{background:#e53935;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f6_sm{position:absolute;top:23rem;left:30rem;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f6_sm>p:first-child{background:#e53935;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f7_sm{position:absolute;top:23rem;left:45.5rem;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f7_sm>p:first-child{background:#e53935;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f8_sm{position:absolute;top:23rem;left:61rem;}
+#container>#floors>.floor1>div.sm_img>ul>li>div.f8_sm>p:first-child{background:#e53935;}
+
+#container>#floors>div.spac{margin:3rem 0 3rem 0;}
+#container>#floors>div.spac>a{display:block;width:1226px;height:120px;}
+#container>#floors>div.spac>a>img{width:100%;height:100%;}
+
+/*floor2*/
+#container>#floors>.floor2{margin-top:2rem;}
+#container>#floors>div.floor2>div.bg_img>a{width:234px;height:300px;}
+#container>#floors>div.floor2>div.bg_img>a>img{width:100%;height:100%;margin-bottom:10px;}
+
+/*小米footer*/
+#footer::after{content:'';display:block;clear:both;}
+#footer{position:relative;width:100%;background:#fff;}
+#footer>div.footer_inner>div.site_footer{height:270px;width:1226px;margin:0 auto;}
+#footer>div.footer_inner>div.site_footer>ul{width:1226px;height:25px;padding:30px 0;border-bottom:1px solid #ccc;}
+#footer>div.footer_inner>div.site_footer>ul>li{float:left;padding:0 50px;border-right:1px solid #ccc;}
+#footer>div.footer_inner>div.site_footer>ul>li>img{vertical-align:middle;}
+#footer>div.footer_inner>div.site_footer>ul>li>a{font-size:18px;color:#616161;vertical-align:middle;}
+#footer>div.footer_inner>div.site_footer>ul>li>a:hover{color:#ff6700;}
+#footer>div.footer_inner>div.site_footer>div.ul_1{float:left;width:158px;height:150px;margin-top:2rem;}
+#footer>div.footer_inner>div.site_footer>div.ul_1>ul>li{padding-bottom:15px;}
+#footer>div.footer_inner>div.site_footer>div.ul_1>ul>li:first-child>a{display:inline-block;padding-bottom:10px;font-size:15px;color:#424242;}
+#footer>div.footer_inner>div.site_footer>div.ul_1>ul>li>a{font-size:13px;color:#757575;}
+#footer>div.footer_inner>div.site_footer>div.ul_1>ul>li>a:hover{color:#ff6700;}
+#footer>div.footer_inner>div.site_footer>div.ul_1:nth-child(7)>ul{border-right:1px solid #ccc;}
+#footer>div.footer_inner>div.site_footer>div.contact{float:left;width:230px;height:150px;margin:2rem 0 0 2rem;text-align:center;}
+#footer>div.footer_inner>div.site_footer>div.contact>p:first-child{color:#ff6700;font-size:22px;}
+#footer>div.footer_inner>div.site_footer>div.contact>p{font-size:14px;margin-top:5px;}
+#footer>div.footer_inner>div.site_footer>div.contact>p:last-child{border:1px solid #ff6700;width:120px;height:30px;color:#ff6700;margin:20px  auto;cursor:pointer;transition:0.2s linear;}
+#footer>div.footer_inner>div.site_footer>div.contact>p:last-child>span{display:inline-block;padding:6px 0;}
+#footer>div.footer_inner>div.site_footer>div.contact>p:last-child:hover{background:#ff6700;color:#fff;}
+
+#footer>div.footer_inner>div.site_info{width:1226px;margin:50px auto;}
+#footer>div.footer_inner>div.site_info>div.text a:hover{color:#ff6700;}
+#footer>div.footer_inner>div.site_info>div.logo{float:left;width:65px;height:220px;}
+#footer>div.footer_inner>div.site_info>div.text{float:left;width:1100px;height:220px;}
+#footer>div.footer_inner>div.site_info>div.text>ul:first-child{margin-top:5px;width:1226px;}
+#footer>div.footer_inner>div.site_info>div.text>ul>li{float:left;margin-right:5px;}
+#footer>div.footer_inner>div.site_info>div.text>ul>li>a{font-size:12px;color:#757575;}
+#footer>div.footer_inner>div.site_info>div.text>ul:nth-child(2){width:1226px;}
+
+
+
+
+
+
+
+
