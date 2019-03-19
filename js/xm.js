@@ -1,43 +1,74 @@
 //top_navbar
-var as=document.querySelectorAll("[data-toggle=tab]");
-for(var a of as){
-    a.onmouseenter=function(){
-        var divs=document.querySelectorAll("#container_1>div")
-        for(var div of divs){
-            div.style.display="none";
-        }
-        var id=this.getAttribute("data-target");
-        document.querySelector(id).style.display="block";
-    }
-}
+(function(){
+    var as=document.querySelectorAll("[data-toggle=tab]");
+    for(var a of as){
+        a.onmouseenter=function(){
+            var divs=document.querySelectorAll("#container_1>div")
+            for(var div of divs){
+                div.style.display="none";
+            }
+            var id=this.getAttribute("data-target");
+            document.querySelector(id).style.display="block";
+            //li bgcolor range
 
-var tabs=document.getElementsByClassName("header_txt")[0];
-tabs.onmouseleave=function(){
-    var divs=document.querySelectorAll("#container_1>div");
-    for(var div of divs){
-        div.style.display="none";
+        }
+        var tabs=document.getElementsByClassName("header_txt")[0];
+        tabs.onmouseleave=function(){
+            var divs=document.querySelectorAll("#container_1>div");
+            for(var div of divs){
+                div.style.display="none";
+            }
+        }
     }
-}
+
+})();
+
+
 
 //site
-var as=document.querySelectorAll("[data-toggle=tabs]");
-for(var a of as){
-    a.onmouseenter=function(){
-        var divs=document.querySelectorAll("#container_2>div")
-        for(var div of divs){
-            div.style.display="none";
+(function(){
+    var site=document.querySelectorAll("[data-toggle=tabs]");
+    for(var s of site){
+        s.onmouseenter=function(){
+            var divs=document.querySelectorAll("#container_2>div")
+            for(var div of divs){
+                div.style.display="none";
+            }
+            var id=this.getAttribute("data-target")
+            document.querySelector(id).style.display="block";
         }
-        var id=this.getAttribute("data-target")
-        document.querySelector(id).style.display="block";
+        var site=document.getElementsByClassName("site_navbar")[0];
+        site.onmouseleave=function(){
+            var divs=document.querySelectorAll("#container_2>div");
+            for(var div of divs){
+                div.style.display="none";
+            }
+        }
     }
-}
-var tab=document.getElementsByClassName("site_navbar")[0];
-tab.onmouseleave=function(){
-    var divs=document.querySelectorAll("#container_2>div")
-    for(var div of divs){
-        div.style.display="none";
+})();
+
+//lincence
+(function(){
+    var as=document.querySelectorAll("[data-toggle=licence]");
+    for(var a of as){
+        a.onclick=function(){
+            var divs=document.querySelectorAll("#container_3>div");
+            for(var div of divs){
+                div.style.display="none";
+            }
+            var id=this.getAttribute("data-target");
+            document.querySelector(id).style.display="block";
+
+            //a color range
+            var focus=document.querySelector("#container>#licence_body>div.lc_inner>div>ul>li>a.active");
+            if(focus!==null){
+                focus.className="";
+            }
+            this.className="active";
+        }
+
     }
-}
+})();
 
 
 

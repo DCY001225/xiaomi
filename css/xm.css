@@ -177,6 +177,104 @@ ul,li,a{list-style:none;text-decoration:none;color:#b0b0b0;}
 #footer>div.footer_inner>div.site_info>div.text>ul:nth-child(2){width:1226px;}
 
 
+/*！！！！MIUI！！！！*/
+#MIUI::after{content:'';display:block;clear:both;}
+#MIUI{position:relative;border:2px solid blue;width:100%;height:1500px;background:#fff;}
+#MIUI>#miui_navbar{position:absolute;width:100%;height:50px;background:#000;}
+#MIUI>#miui_navbar>div.lf>a{position:absolute;left:10rem;font-size:20px;display:block;line-height:50px;}
+#MIUI>#miui_navbar>div.rt{float:right;line-height:50px;margin-right:10rem;}
+#MIUI>#miui_navbar>div.rt>a{display:inline-block;padding-left:25px;}
+#MIUI>#miui_navbar>div.rt>a:hover{color:#868686}
+#MIUI>#miui_body{width:100%;height:657px;cursor:pointer;background:#000000 url(https://attach.bbs.miui.com/upload/201811/05/191813nomot4cz3oefgopg.png) no-repeat scroll center top}
+#MIUI>#footer{width:100%;height:270px;}
+#MIUI>#footer>div.footer_inner{width:1300px;margin:170px auto;}
+#MIUI>#footer>div.footer_inner>ul{height:100px;float:left;}
+#MIUI>#footer>div.footer_inner>ul>li{border-right:1px solid #ccc;padding:0 65px;}
+#MIUI>#footer>div.footer_inner>ul>li>a{display:inline-block;width:300px;height:100px;}
+#MIUI>#footer>div.footer_inner>ul>li>a>img{vertical-align:middle;margin-right:10px;}
+#MIUI>#footer>div.footer_inner>ul>li>a>span{font-size:20px;color:#000;}
+#MIUI>#footer>div.footer_inner>ul>li>a>p{font-size:15px;margin:-13px 64px;color:#939393;}
+#MIUI>#footer>div.footer_inner>ul>li>a>span:hover{color:#ff6700;}
+#MIUI>#footer>div.footer_inner>ul>li>a>p:hover{color:#ff6700;}
+#MIUI>#footer>div.footer_txt{width:1300px;margin:0 auto;}
+#MIUI>#footer>div.footer_txt>div{width:1300px;margin:0 auto;float:left;text-align:center;}
+#MIUI>#footer>div.footer_txt>div>a{display:inline-block;font-size:15px;color:#858585;padding:70px 10px;}
+#MIUI>#footer>div.footer_txt>div>a:hover{color:#ff6700;}
+#MIUI>#footer>div.footer_txt>p{position:absolute;top:13rem;left:41rem;font-size:13px;color:#c5c6c8;}
+
+/*licence*/
+#container>#licence_body{position:relative;width:100%;margin:0 auto 60px;}
+#container>#licence_body>div.lc_top{width:100%;height:30px;}
+#container>#licence_body>div.lc_top>a{font-size:13px;line-height:30px;color:#757575;}
+#container>#licence_body>div.lc_top>a:hover{color:#424242;}
+#container>#licence_body>div.lc_inner{position:relative;width:100%;}
+#container>#licence_body>div.lc_inner>div:first-child{float:left;width:296px;height:172px;background:#fff;margin-right:10px;}
+#container>#licence_body>div.lc_inner>div>a:first-child{display:inline-block;font-size:16px;color:#ff6700;padding:30px 0 10px 40px;}
+#container>#licence_body>div.lc_inner>div>ul:nth-child(2){padding:10px 65px;}
+#container>#licence_body>div.lc_inner>div>ul:nth-child(2)>li>a{font-size:14px;color:#757575;}
+#container>#licence_body>div.lc_inner>div>ul>li>a:hover{color:#ff6700;}
+#container>#licence_body>div.lc_inner>div>ul>li>a.active{color:#ff6700;}
+#container>#licence_body>div.lc_inner::after{content:'';display:block;clear:both;}
+#container>#licence_body>div.lc_inner>#container_3::after{content:'';display:block;clear:both;}
+#container>#licence_body>div.lc_inner>#container_3{width:916px;float:left;}
+#container>#licence_body>div.lc_inner>#container_3>div{width:916px;float:left;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_1{width:916px;height:456px;background:#fff;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_1>div.lc_inner{padding:45px;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_1>div.lc_inner>h2{font-size:24px;font-weight:normal;color:#333;padding-bottom:20px;border-bottom:1px solid #ccc;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_1>div.lc_inner>p{font-size:14px;margin:20px 0;color:#757575;font-weight:bold;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_1>div.lc_inner>div>ul>li{margin-bottom:13px;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_1>div.lc_inner>div>ul>li>a{font-size:14px;color:#757575;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_1>div.lc_inner>div>ul>li>a:hover{color:#ff6700;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2{width:916px;height:916px;background:#fff;display:none;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner{padding:45px;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner>h2{font-size:24px;font-weight:normal;color:#333;padding-bottom:20px;border-bottom:1px solid #ccc;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner>p{font-size:18px;margin:20px 0;color:#757575;font-weight:normal}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner>h2{font-size:24px;font-weight:normal;color:#333;padding-bottom:20px;border-bottom:1px solid #ccc;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner>h5{font-size:14px;margin:20px 0;color:#757575;font-weight:bold;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner>div>ul>li{margin-bottom:13px;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner>div>ul>li>a{font-size:14px;color:#757575;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner>div>ul>li>a:hover{color:#ff6700;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner>a{display:block;width:158px;height:38px;color:#fff;text-align:center;background:#ff6700;}
+#container>#licence_body>div.lc_inner>#container_3>#lc_2>div.lc_inner>a>span{display:inline-block;margin-top:7px;}
+
+/*lot*/
+#lot_navbar{width:100%;height:100px;background:#1a1c2f;}
+#lot_navbar>a{display:inline-block;width:187px;height:50px;margin-left:400px;}
+#lot_navbar>a>img{width:100%;height:100%;padding:25px 0;}
+#lot_navbar>ul{float:right;margin-right:400px;}
+#lot_navbar>ul>li{float:left;padding:0 20px;line-height:100px;}
+#lot_navbar>ul>li>a:hover{color:#fff;}
+#lot_body>img{cursor:pointer;}
+#lot_body>img{margin-top:-5px;}
+#lot_body>div.body_item{width:100%;height:1285px;height:500px;margin-top:-5px;background:#ededed;}
+#lot_body>div.body_item>div{width:1200px;margin:20px auto;}
+#lot_body>div.body_item>div.body_1{width:1200px;height:60px;line-height:60px;}
+#lot_body>div.body_item>div.body_1>span:first-child{color:#4d4d4d;font-size:20px;}
+#lot_body>div.body_item>div.body_1>span:nth-child(2){color:#999;font-size:10px;}
+#lot_body>div.body_item>div.body_1>div:nth-child(3){width:1200px;height:435px;margin:30px 0;border-radius:5px;}
+#lot_body>div.body_item>div.body_1>div:nth-child(3)>ul>li{float:left;width:300px;height:435px;}
+#lot_body>div.body_item>div.body_1>div:nth-child(3)>ul>li>img{width:100%;height:100%;}
+#lot_body>div.body_item>div.body_2{width:1200px;height:60px;line-height:60px;}
+#lot_body>div.body_item>div.body_2>span:first-child{display:inline-block;color:#4d4d4d;font-size:20px;margin-top:40px;}
+#lot_body>div.body_item>div.body_2>span:nth-child(2){display:inline-block;color:#999;font-size:10px;margin-top:40px;}
+#lot_body>div.body_item>div.body_2>div:nth-child(3){width:1200px;height:550px;margin:30px 0;border-radius:5px;}
+#lot_body>div.body_item>div.body_2>div>ul{width:300px;height:550px;background:#fff;float:left;text-align:center;}
+#lot_body>div.body_item>div.body_2>div>ul>li{width:300px;height:134px;transition:transform 0.3s;}
+#lot_body>div.body_item>div.body_2>div>ul>li>p{width:183px;height:50px;padding:20px 50px;}
+#lot_body>div.body_item>div.body_2>div>ul>li>p>img{width:100%;height:100%;cursor:pointer;}
+#lot_body>div.body_item>div.body_2>div>ul>li>a{position:relative;top:-1.5rem;display:inline-block;color:#757575;font-size:14px;}
+#lot_body>div.body_item>div.body_2>div>ul>li>a:hover{color:#3498db;}
+#lot_body>div.body_item>div.body_2>div>ul>li:hover{transform:translateY(-5px);box-shadow:0 10px 20px #ddd;}
+#lot_footer{width:100%;height:200px;background:#424242;color:#eee;margin-top:50rem;}
+#lot_footer>p{font-size:14px;position:absolute;left:42rem;cursor:pointer;}
+#lot_footer>p:first-child{left:45rem;bottom:-196.5rem;}
+#lot_footer>p:nth-child(2){left:42rem;bottom:-198rem;}
+
+
+
+
+
+
 
 
 
