@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米账号-注册</title>
+    <style>
+        body{background:#fff;}
+        a{text-decoration:none;color:#999;}
+        #register{width:600px;height:500px;margin:170px auto;}
+        #register>#reg_top{width:600px;}
+        #register>#reg_top>img{display:block;margin:0 auto;}
+        #register>#reg_body{padding-left:13px;margin:10px auto;width:600px;height:350px;}
+        #register>#reg_body>p{font-size:30px;color:#333;text-align:center;}
+        #register>#reg_body>#form{width:350px;height:250px;margin:0 auto;}
+        #register>#reg_body>#form{font-size:14px;color:#333;}
+        #register>#reg_body>#form span{display:inline-block;margin-bottom:5px;}
+        #register>#reg_body>#form div{width:332px;height:42px;}
+        #register>#reg_body>#form div>input{text-indent:10px;width:325px;height:35px;outline:none;border:1px solid #ccc;}
+        input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color:#999;font-size:14px;}
+        #register>#reg_body>#form div.it_1>p{position:relative;float:right;width:40px;height:35px;margin:-37px 5px 0 0;border-left:1px solid #ccc;}
+        #register>#reg_body>#form div.it_1>p>span{position:relative;top:10px;left:-10px;float:right;width:16px;height:16px;background:url(https://account.xiaomi.com/static/res/0eeaaed/passport/oauth/images/icon_user.png)}
+        #register>#reg_body>#form div.it_2>p{line-height:35px;width:60px;height:35px;position:absolute;margin:2px;border-right:1px solid #ccc;}
+        #register>#reg_body>#form div.it_2>input{text-indent:80px;}
+        #register>#reg_body>#form .btn{display:block;width:325px;height:42px;background:#ff6700;margin-top:20px;line-height:42px;text-align:center;color:#fff;}
+        #register>#reg_footer>p{margin:10px auto;width:600px;height:30px;text-align:center;font-size:13px;color:#999;}
+        #register>#reg_footer>p>a{color:#000;font-weight:bold;}
+        #register>#reg_bottom{width:235px;height:50px;margin:200px auto 0;font-size:14px;}
+        #register>#reg_bottom>a{color:#666;}
+        #register>#reg_bottom>a:hover{color:#000;}
+    </style>
+</head>
+<body>
+    <div id="register">
+        <div id="reg_top">
+          <img src="img/logo/logo.png"/>
+        </div>
+        <div id="reg_body">
+            <p>注册小米账号</p>
+            <div id="form">
+                <span>国家/地区</span>
+                <div class="it_1">
+                    <input type="text" placeholder="中国" id="uname"/>
+                    <p>
+                        <span></span>
+                    </p>
+                </div>
+                <p>成功注册帐号后，国家/地区将不能被修改</p>
+                <span>手机号码</span>
+                <div class="it_2">
+                    <p>+ 86 v</p>
+                    <input type="text" placeholder="请输入手机号码" id="phone"/>
+                </div>
+                <a href="javascript:;" class="btn" onclick="register()">立即注册</a>
+            </div>
+        </div>
+        <div id="reg_footer">
+            <p>注册帐号即表示您同意并愿意遵守小米<a href=""> 用户协议</a>和<a href=""> 隐私政策</a></p>
+        </div>
+        <div id="reg_bottom">
+            <a href="javascript:;">简体 | 繁体 | English | 常见问题</a>
+            <p style="width:600px;margin-left:-150px;color:#999;">小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</p>
+        </div>
+    </div>
+    <script>
+        function register(){
+            var xhr=new XMLHttpRequest();
+            console.log(1111111111);
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4&&xhr.status==200){
+                    console.log(1111111111);
+                    var result=xhr.responseText;
+                    console.log(result);
+                }
+            }
+            xhr.open("post","/user/register",true);
+				var formdata="name="+uname.value+"&phone="+phone.value;
+				console.log(formdata);
+				xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+				xhr.send(formdata);
+        }
+    </script>
+</body>
+</html>

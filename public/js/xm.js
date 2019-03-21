@@ -36,15 +36,28 @@
             }
             var id=this.getAttribute("data-target")
             document.querySelector(id).style.display="block";
+            var lis=this.parentNode.parentNode.children;
+            for(var li of lis){
+                li.style.background="";
+            }
+            this.parentNode.style.background="#ff6700";
+            
         }
         var site=document.getElementsByClassName("site_navbar")[0];
+        console.log(site);
         site.onmouseleave=function(){
             var divs=document.querySelectorAll("#container_2>div");
             for(var div of divs){
                 div.style.display="none";
             }
+            var lis=this.children[0].children;
+            for(var li of lis){
+                li.style.background="";
+            }
         }
     }
+    //li bg range
+
 })();
 
 //lincence
@@ -69,7 +82,6 @@
 
     }
 })();
-
 
 
 
