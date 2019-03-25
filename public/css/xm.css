@@ -179,7 +179,7 @@ ul,li,a{list-style:none;text-decoration:none;color:#b0b0b0;}
 
 /*��������MIUI��������*/
 #MIUI::after{content:'';display:block;clear:both;}
-#MIUI{position:relative;border:2px solid blue;width:100%;height:1500px;background:#fff;}
+#MIUI{position:relative;width:100%;height:1500px;background:#fff;}
 #MIUI>#miui_navbar{position:absolute;width:100%;height:50px;background:#000;}
 #MIUI>#miui_navbar>div.lf>a{position:absolute;left:10rem;font-size:20px;display:block;line-height:50px;}
 #MIUI>#miui_navbar>div.rt{float:right;line-height:50px;margin-right:10rem;}
@@ -272,7 +272,7 @@ ul,li,a{list-style:none;text-decoration:none;color:#b0b0b0;}
 
 
 /* xiaoai */
-#xa{position:relative;width:100%;height:2500px;border:2px solid blue;}
+#xa{position:relative;width:100%;}
 #xa>#xa_top{position:fixed;z-index:5;width:100%;height:60px;background:#242424;}
 #xa>#xa_top>#top_inner{width:70%;margin:0 auto;height:60px;text-align:center;}
 #xa>#xa_top>#top_inner div.img{width:34px;height:32px;float:left;}
@@ -286,11 +286,11 @@ ul,li,a{list-style:none;text-decoration:none;color:#b0b0b0;}
 #xa_1,#xa_2{display:none;}
 #xa>#xa_top>#top_inner div.top>#top_hidden::after{content:'';display:block;clear:left;}
 #xa>#xa_top>#top_inner div.top>#top_hidden{position:fixed;}
-#xa>#xa_top>#top_inner div.top>#top_hidden>.xa_hide{position:fixed;width:90px;left:30.7rem;}
+#xa>#xa_top>#top_inner div.top>#top_hidden>.xa_hide{position:fixed;width:90px;left:30.5rem;}
 #xa>#xa_top>#top_inner div.top>#top_hidden>.xa_hide>ul::after{content:'';display:block;clear:left;}
 #xa>#xa_top>#top_inner div.top>#top_hidden>.xa_hide>ul>li{float:left;padding:0;width:90px;height:50px;line-height:50px;background:#000;}
 #xa>#xa_top>#top_inner div.top>#top_hidden>.xa_hide>ul>li>a:hover{color:#108ee9;}
-#xa>#xa_top>#top_inner div.top>#top_hidden>#xa_2{position:fixed;width:90px;left:42rem;}
+#xa>#xa_top>#top_inner div.top>#top_hidden>#xa_2{position:fixed;width:90px;left:41.8rem;}
 
 
 #xa>#xa_top>#top_inner>div.rt{position:absolute;right:25rem;line-height:60px;top:0;display:inline-block;width:300px;height:60px;}
@@ -311,7 +311,7 @@ ul,li,a{list-style:none;text-decoration:none;color:#b0b0b0;}
 #xa>#xa_body>div.slider>div.slider_item_1>div:nth-child(4):hover{background:#0087ff;color:#fff;}
 #xa>#xa_body>div.slider>div.slider_item_1>div:nth-child(5):hover{background:#0087ff;color:#fff;}
 #xa>#xa_body>#container{position:relative;width:100%;margin-top:8rem;}
-#xa>#xa_body>#container>#container_body{position:relative;width:1400px;height:500px;margin:0 auto;}
+#xa>#xa_body>#container>#container_body{position:relative;width:1400px;margin:0 auto;}
 #xa>#xa_body>#container>#container_body>p:first-child{font-size:30px;text-align:center;}
 #xa>#xa_body>#container>#container_body>p:nth-child(2){font-size:20px;margin-top:2rem;text-align:center;}
 #xa>#xa_body>#container>#container_body>div:nth-child(3){width:1400px;height:255px;margin-top:5rem;}
@@ -332,6 +332,68 @@ ul,li,a{list-style:none;text-decoration:none;color:#b0b0b0;}
 #xa>#xa_body>#container>#container_body_2>div:first-child>div>ul>li>a>img{width:100%;height:100%;}
 #xa>#xa_body>#container>#container_body_2>div:first-child>div>ul>li>p{color:#222;text-align:center;margin-top:20px;}
 #xa>#xa_body>#container>div.container_body3>div:nth-child(3)>ul>li>a{display:block;width:40px;height:40px}
+#xa>#xa_body>#container>#container_body_3{position:relative;width:100%;height:380px;margin:0 auto;background:#292f59;padding:60px 0 80px;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner{position:relative;width:1400px;height:400px;margin:1rem auto;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>p:first-child{color:#fff;font-size:22px;text-align:center;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2){position:absolute;width:1400px;height:300px;margin:3rem auto;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2)>ul{width:1400px;height:180px;margin-top:1rem;text-align:center;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2)>ul>li{width:277px;height:180px;float:left;text-align:center;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2)>ul>li>a{display:inline-block;width:48px;height:48px;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2)>ul>li>a>img{width:100%;height:100%;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2)>ul>li>p:nth-child(2){color:#fff;font-size:16px;margin-top:1rem;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2)>ul>li>p:nth-child(3){color:#fff;font-size:12px;margin-top:1rem;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2)>a{display:block;width:300px;height:56px;background:#00eaff;margin:2rem auto;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2)>a>p{color:#fff;font-size:20px;text-align:center;line-height:56px;transition:0.3s;}
+#xa>#xa_body>#container>#container_body_3>#body3_inner>div:nth-child(2)>a:hover>p{color:#000;}
+#xa>#xa_footer{position:relative;width:100%;height:300px;background:#333;}
+#xa>#xa_footer>#footer_inner1{width:1400px;height:250px;margin:0 auto;}
+#xa>#xa_footer>#footer_inner1>div{margin-top:3rem;width:272px;height:200px;float:left;}
+#xa>#xa_footer>#footer_inner1>div>ul>li{margin-bottom:3px;}
+#xa>#xa_footer>#footer_inner1>div>ul>li:first-child{font-size:15px;color:#fff;margin-bottom:15px;}
+#xa>#xa_footer>#footer_inner1>div>ul>li>a{font-size:14px;color:#8b8b8b;}
+#xa>#xa_footer>#footer_inner1>div>ul>li>a:hover{color:#fff;}
+#xa>#xa_footer>#footer_inner2{width:100%;height:50px;margin:0 auto;background:#212121;display:flex;justify-content:center;}
+#xa>#xa_footer>#footer_inner2>a{display:inline-block;margin-top:10px;font-size:12px;}
+#xa>#xa_footer>#footer_inner2>a>span{margin:0 5px;}
+
+/* xm_phone */
+#phone_body{position:relative;width:100%;background:#f5f5f5;}
+#phone_body>#slider{position:relative;width:100%;height:620px;}
+#phone_body>#slider>div.slider_img{position:absolute;width:100%;height:620px;}
+#phone_body>#slider>div.slider_img>a{display:block;width:1900px;height:620px;}
+#phone_body>#slider>div.slider_img>a>img{width:120%;height:100%;margin-left:-16rem;}
+#phone_body>#product1{width:1200px;height:504px;margin:0 auto;transition:transform 0.3s linear;}
+#phone_body>#product1>p{width:1200px;height:70px;line-height:70px;color:#333;font-size:24px;}
+#phone_body>#product1>div.p1_inner{width:1200px;height:434px;}
+#phone_body>#product1>div.p1_inner>a{display:block;width:854px;height:434px;float:left;}
+#phone_body>#product1>div.p1_inner>a>img{width:100%;height:100%;}
+#phone_body>#product1>div.p1_inner>div:nth-child(2){width:300px;height:300px;float:right;margin-top:4rem;}
+#phone_body>#product1>div.p1_inner>div:nth-child(2)>h2:first-child{font-weight:normal;color:rgba(51,51,51,0.9);font-size:32px;}
+#phone_body>#product1>div.p1_inner>div:nth-child(2)>p:nth-child(2){font-size:14px;color:rgba(51,51,51,0.9);margin-top:10px;}
+#phone_body>#product1>div.p1_inner>div:nth-child(2)>span:nth-child(3){display:inline-block;font-size:26px;color:#ff6700;margin-top:2rem;}
+#phone_body>#product1>div.p1_inner>div:nth-child(2)>span:nth-child(4){margin-left:-2px;font-size:14px;color:#ff6700;}
+#phone_body>#product1>div.p1_inner>div:nth-child(2)>p:nth-child(5){color:rgba(51,51,51,0.7);font-size:14px;margin-top:7rem;cursor:pointer;}
+#phone_body>#product1:hover{transform:translateY(-3px);box-shadow:0 15px 30px rgba(0,0,0,0.1);}
+#phone_body>.product_css{width:1200px;height:504px;margin:20px auto;}
+#phone_body>.product_css>.product_mg{margin-right:15px;}
+#phone_body>.product_css>div.product{width:590px;height:504px;float:left;transition:transform 0.3s linear;}
+#phone_body>.product_css>div.product>ul{width:590px;height:504px;float:left;background:#fff;}
+#phone_body>.product_css>div.product>ul>li{width:590px;height:504px;}
+#phone_body>.product_css>div.product>ul>li>a{display:block;width:590px;height:358px;}
+#phone_body>.product_css>div.product>ul>li>a>img{width:100%;height:100%;}
+#phone_body>.product_css>div.product>ul>li>a:nth-child(2){font-size:24px;color:rgba(51,51,51,0.9);margin:2rem 0 0 3rem;width:400px;height:0;}
+#phone_body>.product_css>div.product>ul>li>p:nth-child(3){display:inline-block;width:400px;height:15px;font-size:14px;color:rgba(51,51,51,0.7);margin:3rem 0 0 3rem;float:left;}
+#phone_body>.product_css>div.product>ul>li>span:nth-child(4){float:left;font-size:30px;color:#ff6700;line-height:20px;margin-top:2rem;}
+#phone_body>.product_css>div.product>ul>li>span:nth-child(5){font-size:14px;float:left;color:#ff6700;line-height:30px;padding-left:3px;margin-top:2rem;}
+#phone_body>.product_css>div.product:hover{transform:translateY(-3px);box-shadow:0 15px 30px rgba(0,0,0,0.1);}
+#phone_body>.product_css>#product2_2{float:left;}
+
+#return>a{display:block;position:fixed;left:2rem;top:35rem;z-index:10;}
+
+
+
+
+
 
 
 
