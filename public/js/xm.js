@@ -44,7 +44,6 @@
             
         }
         var site=document.getElementsByClassName("site_navbar")[0];
-        console.log(site);
         site.onmouseleave=function(){
             var divs=document.querySelectorAll("#container_2>div");
             for(var div of divs){
@@ -82,6 +81,13 @@
 
     }
 })();
+
+
+
+
+
+
+
 
 
 
