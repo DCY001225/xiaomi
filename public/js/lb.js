@@ -1,3 +1,4 @@
+
 var box=document.querySelector(".carousel_inner");
 var arrow=document.querySelector(".carousel_arrow");
 var PrNe=arrow.children[0].children;
